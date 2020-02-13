@@ -57,7 +57,7 @@
 	transition: transform;
 }
 
-.banner-btn:hover {
+.banner-sub-here-btn:hover {
 	transform: translateY(-1px);
 }
 
@@ -98,6 +98,7 @@
 	/* can use fade effect ( can't if using display property)   */
 	opacity: 0; /* can use transistion with opacity */
 	visibility: hidden;
+	transition: opacity 1s;
 }
 
 .sign-up-form {
